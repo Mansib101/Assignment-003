@@ -43,7 +43,7 @@
 </head>
 <body class="font-manrope">   
      <header>
-      <div class="flex justify-between lg:w-8/12 mx-auto pt-5">
+      <div class="flex justify-between items-center lg:w-8/12 mx-auto pt-5">
         <div>
           <a class="btn btn-ghost text-3xl font-black"><i class="fa-solid fa-arrow-right -rotate-45 bg-dark-green rounded-full p-2"></i>Rinterio</a>
         </div>
@@ -61,8 +61,17 @@
           <button href=""><i class="fa-solid fa-cart-shopping"></i></button>
           <button class="btn bg-dark-green rounded-full font-extrabold text-xl">Book Consultant<i class="fa-solid fa-circle-arrow-right -rotate-45 text-2xl "></i></button>
         </div>
-        <div class="lg:hidden m-5 px-4 border border-black rounded-full">
-          <button class="" href=""><i class="fa-solid fa-bars"></i></button>
+        <div class="lg:hidden m-5 px-4 border border-black-200 rounded-full">
+          <div class="dropdown dropdown-end">
+            <div tabindex="0" role="button" class="btn m-1"><i class="fa-solid fa-bars"></i></div>
+            <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+              <li><a class="font-extrabold text-lg">Home</a></li>
+              <li><a class="font-light text-lg">Services</a></li>
+              <li><a class="font-light text-lg">Portfolio</a></li>
+              <li><a class="font-light text-lg">Blogs</a></li>
+              <li><a class="font-light text-lg">Contact Us</a></li>
+            </ul>
+          </div>
         </div>
       </div>
      </header>
